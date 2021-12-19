@@ -1,6 +1,6 @@
 {
   "name": "php-recipes/injection",
-  "description": "Something something",
+  "description": "A supporting package for dealing with injection in PHP. This packages includes a series of interfaces, traits, attributes and helpers for dealing with all forms of dependency injection in PHP.",
   "minimum-stability": "stable",
   "license": "MIT",
   "type": "library",
