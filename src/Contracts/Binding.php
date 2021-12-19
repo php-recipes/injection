@@ -42,6 +42,8 @@ interface Binding
      *      method(array)       An array of class & method or object & method, whether this has to be a valid
      *                          callable is entirely up to the implementation.
      *
+     * If no value has been provided for this, it will default to be the abstract.
+     *
      * @return class-string<A>|array|object<A|Closure>
      */
     public function concrete(): string|array|object;
