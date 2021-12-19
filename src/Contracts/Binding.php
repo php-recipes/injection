@@ -16,6 +16,7 @@ use Closure;
  *      shared      Whether the binding is shared, so should only be resolved once.
  *
  * @template A of object
+ * @package  Binding
  */
 interface Binding
 {
