@@ -54,7 +54,7 @@ interface Binding
      * Binding aliases serve as a way to register a binding against multiple abstracts. Bindings registered with a
      * container, that have aliases, will also be bound as if those aliases were their abstract.
      *
-     * Aliases should always be, in some way, a descendant of the abstract.
+     * Aliases should always be, in some way, a descendant of the abstract, or a parent of the concrete.
      *
      * @return array<class-string<A>>
      */
