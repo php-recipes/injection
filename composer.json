@@ -19,14 +19,13 @@
   },
   "autoload": {
     "psr-4": {
-      "A\\Namespace\\": "src/"
+      "PhpR\\Injection\\": "src/"
     },
     "files": [
     ]
   },
   "autoload-dev": {
     "psr-4": {
-      "A\\Namespace\\Tests\\": "tests/"
     },
     "files": [
     ]
